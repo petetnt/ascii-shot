@@ -6,7 +6,7 @@ Get your latest Instagram shot as an ASCII version to `stdout`.
 
 ## Installing
 
-Install `asciifeed` with `npm`
+Install `ascii-shot` with `npm`
 
 ``` bash
 npm install ascii-shot -g
@@ -31,7 +31,7 @@ Instagram API is quite restrictive, so you'll need to jump through some hoops.
   set INSTAGRAM_CLIENT_SECRET=your_secret_here
 ```
 
-When you run `ascii-feed`, it will automatically fetch your `access_token` and show your newest Instagram shot. If it's your first time running the script, it will most likely ask you to authoritize the app.
+When you run `ascii-shot`, it will automatically fetch your `access_token` and show your newest Instagram shot. If it's your first time running the script, it will most likely ask you to authoritize the app.
 
 After you have successfully gained your `access_token`, check the console and save it as an environment variable `INSTAGRAM_ACCESS_TOKEN` to skip further need to get it again. (The tokens, however, might expire at some point so you might need to get another later).
 

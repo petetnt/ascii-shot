@@ -1,6 +1,6 @@
 {
   "name": "ascii-shot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ":rainbow: Get your latest Instagram shot as an ASCII version to stdout.",
   "main": "index.js",
   "scripts": {
