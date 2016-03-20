@@ -1,0 +1,37 @@
+{
+  "name": "ascii-shot",
+  "version": "0.0.1",
+  "description": ":rainbow: Get your latest Instagram shot as an ASCII version to stdout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petetnt/ascii-shot.git"
+  },
+  "keywords": [
+    "instagram",
+    "ascii",
+    "feed",
+    "hashtags"
+  ],
+  "author": "Pete Nykänen <pete.a.nykanen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petetnt/ascii-shot/issues"
+  },
+  "homepage": "https://github.com/petetnt/ascii-shot#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "form-data": "^0.2.0",
+    "meow": "^3.7.0",
+    "node-fetch": "^1.4.0",
+    "open": "0.0.5"
+  },
+  "bin": {
+    "ascii-shot": "ascii-shot"
+  }
+}

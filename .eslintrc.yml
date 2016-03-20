@@ -1,0 +1,68 @@
+parserOptions:
+    ecmaVersion: 6
+    sourceType: "module"
+
+env:
+    es6: true
+    node: true
+
+rules:
+    comma-dangle: [2, "never"]
+    no-cond-assign: 2
+    no-console: 0
+    no-constant-condition: 2
+    no-control-regex: 2
+    no-debugger: 2
+    no-dupe-keys: 2
+    no-empty: 2
+    no-empty-character-class: 2
+    no-ex-assign: 2
+    no-extra-boolean-cast: 2
+    no-extra-parens: [2, "functions"]
+    no-extra-semi: 2
+    no-func-assign: 2
+    no-inner-declarations: 2
+    no-invalid-regexp: 2
+    no-irregular-whitespace: 2
+    no-negated-in-lhs: 2
+    no-obj-calls: 2
+    no-regex-spaces: 2
+    no-sparse-arrays: 2
+    no-unreachable: 2
+    use-isnan: 2
+    valid-jsdoc: [1, {
+        requireReturn: false
+    }]
+    valid-typeof: 2
+    no-unexpected-multiline: 2
+    eol-last: 2
+    
+    #Best Practices
+    
+    block-scoped-var: 2
+    eqeqeq: 2
+    no-eval: 2
+    no-implied-eval: 2
+    no-new-func: 2
+    no-multi-str: 2
+    no-octal: 2
+    no-useless-call: 2
+    no-void: 2
+    radix: 2
+    
+    #Variables
+    no-delete-var: 2
+    no-undef: 2
+    no-undefined: 2
+    no-unused-vars: 2
+    
+    #NodeJS
+    callback-return: 2
+    handle-callback-err: 2
+    no-mixed-requires: 2
+    
+    #Stylistic
+    array-bracket-spacing: [2, "never"]
+    camelcase: 0
+    no-mixed-spaces-and-tabs: 2
+    keyword-spacing: 1
