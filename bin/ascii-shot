@@ -1,3 +1,18 @@
-#!/usr/bin/env node --harmony
-'use strict';
-require("../lib");
+#!/usr/bin/env node
+const meow = require("meow");
+const cli = meow(`
+    Usage
+      $ ascii-shot <username>
+
+    Examples
+      $ ascii-shot petetnt
+`);
+
+const username = cli.input[0];
+
+if (!username) {
+  console.error("  Error: You must pass an username");
+  cli.showHelp();
+} else {
+  require("../lib/ascii-shot")(username);
+}

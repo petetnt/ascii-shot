@@ -1,10 +1,10 @@
 {
   "name": "ascii-shot",
-  "version": "0.0.3",
-  "description": ":rainbow: Get your latest Instagram shot as an ASCII version to stdout.",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": ":rainbow: Get an users instagram feed as an ASCII version to stdout.",
+  "main": "ascii-shot.js",
   "scripts": {
-    "test": "mocha --reporter=spec"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -25,13 +25,14 @@
   "dependencies": {
     "ansi": "^0.3.1",
     "cheerio": "^0.20.0",
-    "express": "^4.13.4",
     "form-data": "^0.2.0",
     "meow": "^3.7.0",
-    "node-fetch": "^1.4.0",
-    "open": "0.0.5"
+    "node-fetch": "^1.4.0"
   },
   "bin": {
     "ascii-shot": "bin/ascii-shot"
+  },
+  "devDependencies": {
+    "eslint-config-motley": "^1.0.2"
   }
 }
