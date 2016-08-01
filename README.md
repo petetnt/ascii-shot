@@ -2,7 +2,7 @@
 
 :rainbow: Get an users instagram feed as an ASCII version to `stdout`.
 
-![Ascii-shot](./assets/example.png)
+<img alt="ascii-shot" width="864" src="./assets/example.png">
 
 ## Installing
 
