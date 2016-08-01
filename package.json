@@ -1,6 +1,6 @@
 {
   "name": "ascii-shot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": ":rainbow: Get an users instagram feed as an ASCII version to stdout.",
   "main": "ascii-shot.js",
   "scripts": {
@@ -33,6 +33,12 @@
     "ascii-shot": "bin/ascii-shot"
   },
   "devDependencies": {
-    "eslint-config-motley": "^1.0.2"
+    "ava": "^0.15.2",
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.1",
+    "eslint-config-motley": "^1.0.2",
+    "eslint-plugin-ava": "^2.5.0",
+    "execa": "^0.4.0",
+    "fetch-mock": "^5.0.3"
   }
 }

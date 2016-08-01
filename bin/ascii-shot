@@ -3,16 +3,28 @@ const meow = require("meow");
 const cli = meow(`
     Usage
       $ ascii-shot <username>
+      
+    Options
+      --highres, -h Show highres images
+      --noColor, -c No colors
 
     Examples
       $ ascii-shot petetnt
-`);
+      $ ascii-shot petetnt --highres
+      $ ascii-shot petetnt --noColor
+`, {
+  alias: {
+    "h": "highres",
+    "c": "noColor"
+  }
+});
 
 const username = cli.input[0];
+const flags = cli.flags;
 
 if (!username) {
   console.error("  Error: You must pass an username");
   cli.showHelp();
 } else {
-  require("../lib/ascii-shot")(username);
+  require("../lib/ascii-shot")(username, flags);
 }

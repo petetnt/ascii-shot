@@ -17,6 +17,9 @@ npm install ascii-shot -g
 ```
   Usage
     $ ascii-shot <username>
+  
+  Options
+    --highres, -h Show highres images
 
   Examples
     $ ascii-shot petetnt
