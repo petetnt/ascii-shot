@@ -5,7 +5,7 @@ const cli = meow(`
       $ ascii-shot <username>
       
     Options
-      --highres, -h Show highres images
+      --highRes, -h Show highres images
       --noColor, -c No colors
 
     Examples
@@ -14,7 +14,7 @@ const cli = meow(`
       $ ascii-shot petetnt --noColor
 `, {
   alias: {
-    "h": "highres",
+    "h": "highRes",
     "c": "noColor"
   }
 });

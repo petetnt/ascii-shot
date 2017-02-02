@@ -19,12 +19,12 @@ npm install ascii-shot -g
       $ ascii-shot <username>
       
     Options
-      --highres, -h Show highres images
+      --highRes, -h Show highRes images
       --noColor, -c No colors
 
     Examples
       $ ascii-shot petetnt
-      $ ascii-shot petetnt --highres
+      $ ascii-shot petetnt --highRes
       $ ascii-shot petetnt --noColor
 ```
 
