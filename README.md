@@ -1,4 +1,4 @@
-# Ascii-shot
+# asciiShot `ascii-shot`
 
 :rainbow: Get an users Instagram feed as an ASCII version to `stdout`.
 

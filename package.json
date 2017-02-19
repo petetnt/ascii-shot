@@ -1,6 +1,6 @@
 {
   "name": "ascii-shot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": ":rainbow: Get an users instagram feed as an ASCII version to stdout.",
   "main": "ascii-shot.js",
   "scripts": {

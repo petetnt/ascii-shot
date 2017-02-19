@@ -1,5 +1,10 @@
 # Versions
 
+## 1.2.0
+
+- Now supports pagination!
+- Caption formatting
+
 ## 1.1.0
 
 - Added colorized output #2

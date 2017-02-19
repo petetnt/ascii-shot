@@ -26,5 +26,5 @@ if (!username) {
   console.error("  Error: You must pass an username");
   cli.showHelp();
 } else {
-  require("../lib/ascii-shot")(username, flags);
+  require("../lib/ascii-shot")(username, null, flags);
 }
