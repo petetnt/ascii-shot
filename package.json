@@ -27,7 +27,7 @@
     "cheerio": "^0.20.0",
     "form-data": "^0.2.0",
     "meow": "^3.7.0",
-    "node-fetch": "^1.4.0"
+    "node-fetch": "^2.6.1"
   },
   "bin": {
     "ascii-shot": "bin/ascii-shot"
